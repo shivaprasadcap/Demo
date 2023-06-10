@@ -1,0 +1,34 @@
+Three stages of file: committed, modified, and staged.
+
+
+
+commands:
+
+pwd	: returns the current working directory
+
+cd	: to change the working directory. (cd~ to go to home)
+
+dir	: list files in directory
+
+copy con	: create a new empty file
+
+mkdir	: to create a new empty folder
+
+git config	: allows you to set configuration like username and email address
+		
+	git config --global user.name "Shiva Prasad"
+	git config --global user.email "shivaprasadcapgemini@gmail.com"
+Note: if you want to use different user n email for a particular project, then use the same commands without "--global". But with global it will uplaod project to only that user everytime and no need to use these commands ever again.
+
+
+git config --list	: to check config list, it will list all the settings git has at that point
+git config user.name	: to check only username (u can use for other config too)
+
+man git		: git manual
+
+git help config		: will take you to config commands in git manual
+
+git help	: returns most commonly used git commands
+
+
+
