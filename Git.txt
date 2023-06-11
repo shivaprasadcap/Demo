@@ -57,7 +57,7 @@ git diff	: committed and staged changes
 git diff --staged	: compares staged changes to last commit snapshot
 git diff --staged --no-renames	:same as above but better
 
-git commit -a	: skips git add command
+git commit -a -m <message>	: skips git add command
 
 
 
