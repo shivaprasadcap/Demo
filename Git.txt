@@ -34,7 +34,7 @@ git init	: to initialize git repository
 
 git add .	: add files to staging area so that we can git it
 
-git commit -m "message"		: commit a file
+git commit -m "message"		: commit a file to local project/git repo
 
 git remote add origin <http urll>	: used to link local repository to git repository so that u can push and pull changes between the two
 
