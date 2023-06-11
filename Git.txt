@@ -59,6 +59,10 @@ git diff --staged --no-renames	:same as above but better
 
 git commit -a -m <message>	: skips git add command
 
+git push origin master	: to push to origin(github web)
+
+git log		: to see previous commits
+
 
 
 create a new repository on the command line
