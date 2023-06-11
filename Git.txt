@@ -61,7 +61,11 @@ git commit -a -m <message>	: skips git add command
 
 git push origin master	: to push to origin(github web)
 
-git log		: to see previous commits
+git log		: to see previous commits in reverse chronological order
+git log -1	: it shows only the last 1 log i.e. the latest commit
+git log --oneline	: gets all the commits in a single line format
+git log --stat		: more details in the log
+git log --patch		: most details in the log like git diff
 
 
 
