@@ -30,5 +30,56 @@ git help config		: will take you to config commands in git manual
 
 git help	: returns most commonly used git commands
 
+git init	: to initialize git repository
+
+git add .	: add files to staging area so that we can git it
+
+git commit -m "message"		: commit a file
+
+git remote add origin <http urll>	: used to link local repository to git repository so that u can push and pull changes between the two
+
+git push -u  origin master	: to push
+Note: it will prompt u to enter username and password
+
+git status	: shows whether the branch is upto date or not, i.e local rep == origin rep
+
+cd .> fileName.txt	: to add new file to the repo
+
+git add fileName	: used to track the file for commit
+
+Notepad filename	: to open file in notepad (open -a <text editor> filename: used to open a file)
+
+code filename	: to open file in vs code
+
+git status -s	: to show small status
+git status --short	: to show small status
+git diff	: committed and staged changes
+git diff --staged	: compares staged changes to last commit snapshot
+git diff --staged --no-renames	:same as above but better
+
+git commit -a	: skips git add command
+
+
+
+create a new repository on the command line
+
+echo "# Demo" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/shivaprasadcap/Demo.git
+git push -u origin main
+
+
+push an existing repository from the command line
+
+git remote add origin https://github.com/shivaprasadcap/Demo.git
+git branch -M main
+git push -u origin main
+
+
+
+
 
 
