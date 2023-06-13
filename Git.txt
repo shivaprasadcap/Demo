@@ -71,13 +71,20 @@ git log --patch		: most details in the log like git diff
 git rm filename		: remove file from staged for deletion
 git rm --cached filename	: stop tracking but doesn't remove/delete from the directory
 
+git stash	: temporarily shelves (or stashes) changes you've made to your working copy so you can work on something else, and then come back and re-apply them later on.
+git stash  list		: provides list of work in progress
+git stash show		: high level desc of stash lsit
+git stash pop		: change will be brought back to the working directory
+
 
 git mv oldName newName		: to rename a file name
 
 git checkout -b branchName	: create a new branch
 git checkout master	: to go back to master branch
 git branch branchName	: will create branch without commit/checkout
+git branch	: lists all the branches in the directory
 
+git merge branch_name	:to merge the branch to the checkout branch(i.e. 'branch_name' branch will be merged to the branch in which the checkout is rn)
 
 
 create a new repository on the command line
