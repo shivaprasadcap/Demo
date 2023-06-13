@@ -57,7 +57,7 @@ git diff	: committed and staged changes
 git diff --staged	: compares staged changes to last commit snapshot
 git diff --staged --no-renames	:same as above but better
 
-git commit -a -m <message>	: skips git add command
+git commit -a -m "<message>"	: skips git add command
 
 git push origin master	: to push to origin(github web)
 
@@ -86,8 +86,14 @@ git branch	: lists all the branches in the directory
 
 git merge branch_name	:to merge the branch to the checkout branch(i.e. 'branch_name' branch will be merged to the branch in which the checkout is rn)
 
+[git reset commands allows to to move our commits from history back into our working/staging area. It is used to throw changes away.
+create a new repository on the command line]
+git reset --soft head_number_of_commit_we_want_to_move_to	: git directory to staging area (i.e. removes commit)
+git reset head_number_of_commit_we_want_to_move_to	: (Default reset) git directory to working directory (i.e. rmeoves git add file_name)
+git reset --mixed head_number_of_commit_we_want_to_move_to	: (same as above) git directory to working directory (i.e. rmeoves git add file_name)
+git reset --hard head_number_of_commit_we_want_to_move_to	: removes all the commits completly and u can start over
 
-create a new repository on the command line
+
 
 echo "# Demo" >> README.md
 git init
