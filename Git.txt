@@ -94,6 +94,10 @@ git reset --mixed head_number_of_commit_we_want_to_move_to	: (same as above) git
 git reset --hard head_number_of_commit_we_want_to_move_to	: removes all the commits completly and u can start over
 
 
+git clone <repo_url>	: to clone a repository to another folder
+git pull	: how you update that local copy with new commits from the remote repository
+gh repo fork <url>	: git fork means you are copying the repository to your Github account
+
 
 echo "# Demo" >> README.md
 git init
