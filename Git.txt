@@ -69,7 +69,7 @@ git log --patch		: most details in the log like git diff
 
 
 git rm filename		: remove file from staged for deletion
-git rm --cached filename	: stop tracking but doesn't remove from the directory
+git rm --cached filename	: stop tracking but doesn't remove/delete from the directory
 
 
 git mv oldName newName		: to rename a file name
