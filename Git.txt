@@ -68,6 +68,17 @@ git log --stat		: more details in the log
 git log --patch		: most details in the log like git diff
 
 
+git rm filename		: remove file from staged for deletion
+git rm --cached filename	: stop tracking but doesn't remove from the directory
+
+
+git mv oldName newName		: to rename a file name
+
+git checkout -b branchName	: create a new branch
+git checkout master	: to go back to master branch
+git branch branchName	: will create branch without commit/checkout
+
+
 
 create a new repository on the command line
 
